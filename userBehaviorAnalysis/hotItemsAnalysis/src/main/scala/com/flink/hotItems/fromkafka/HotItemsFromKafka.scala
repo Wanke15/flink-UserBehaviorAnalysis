@@ -1,28 +1,29 @@
-package com.flink.hotItems
-
+package com.flink.hotItems.fromkafka
 
 import java.sql.Timestamp
+import java.util.Properties
 
 import org.apache.flink.api.common.functions.AggregateFunction
+import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.api.common.state.{ListState, ListStateDescriptor}
-import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 import org.apache.flink.api.scala._
 import org.apache.flink.configuration.Configuration
 import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.functions.KeyedProcessFunction
 import org.apache.flink.streaming.api.scala.function.WindowFunction
+import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 import org.apache.flink.streaming.api.windowing.time.Time
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow
+import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer
 import org.apache.flink.util.Collector
 
 import scala.collection.mutable.ListBuffer
-
 // 先定义输入数据的样例类
 case class UserBehavior(userId:Long,itemId:Long,categoryId:Int,behavior:String,timestamp:Long)
 // 定义一个窗口聚合结构样例类
 case class ItemViewCount(itemId:Long,windowEnd:Long,count:Long)
 
-object HotItems {
+object HotItemsFromKafka {
 
   def main(args: Array[String]): Unit = {
     // 1. create environment
@@ -31,14 +32,20 @@ object HotItems {
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
 
     // 2. read data
+    val properties = new Properties()
+    properties.setProperty("bootstrap.servers","localhost:9092")
+    properties.setProperty("group.id", "consumer-group")
+    properties.setProperty("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
+    properties.setProperty("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
+    properties.setProperty("auto.offset.reset", "latest")
 
 
-    val dataStream: DataStream[UserBehavior] = env.readTextFile("C:\\Users\\lenovo-aa\\Desktop\\flink\\flink-UserBehaviorAnalysis\\userBehaviorAnalysis\\hotItemsAnalysis\\src\\main\\resources\\UserBehavior.csv")
+    val dataStream= env.addSource(new FlinkKafkaConsumer[String]("test",new SimpleStringSchema(),properties))
       .map(data=>{
         val dataArray = data.split(",")
         UserBehavior(dataArray(0).trim.toLong,dataArray(1).trim.toLong,dataArray(2).trim.toInt,dataArray(3).trim,dataArray(4).trim.toLong)
       })// 文本数据已经按照时间排好序
-      .assignAscendingTimestamps(_.timestamp * 1000L) // 转化为ms
+   .assignAscendingTimestamps(_.timestamp * 1000L) // 转化为ms
 
     //3. transformation
     val processed = dataStream
