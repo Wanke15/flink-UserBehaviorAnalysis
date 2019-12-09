@@ -1,6 +1,8 @@
 package com.flink.hotItems
 
 
+import java.sql.Timestamp
+
 import org.apache.flink.api.common.functions.AggregateFunction
 import org.apache.flink.api.common.state.{ListState, ListStateDescriptor}
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
@@ -12,6 +14,8 @@ import org.apache.flink.streaming.api.scala.function.WindowFunction
 import org.apache.flink.streaming.api.windowing.time.Time
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow
 import org.apache.flink.util.Collector
+
+import scala.collection.mutable.ListBuffer
 
 // 先定义输入数据的样例类
 case class UserBehavior(userId:Long,itemId:Long,categoryId:Int,behavior:String,timestamp:Long)
@@ -27,8 +31,9 @@ object HotItems {
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
 
     // 2. read data
-    val path: String = this.getClass.getResource("UserBehavior.csv").getPath
-    val dataStream: DataStream[UserBehavior] = env.readTextFile(path)
+
+
+    val dataStream: DataStream[UserBehavior] = env.readTextFile("C:\\Users\\lenovo-aa\\Desktop\\flink\\flink-UserBehaviorAnalysis\\userBehaviorAnalysis\\hotItemsAnalysis\\src\\main\\resources\\UserBehavior.csv")
       .map(data=>{
         val dataArray = data.split(",")
         UserBehavior(dataArray(0).trim.toLong,dataArray(1).trim.toLong,dataArray(2).trim.toInt,dataArray(3).trim,dataArray(4).trim.toLong)
@@ -42,9 +47,9 @@ object HotItems {
       .timeWindow(Time.hours(1),Time.minutes(5)) // 窗口大小为 1h，步长为 5min
       .aggregate(new CountAgg(),new WindowResult())   // 窗口聚合
       .keyBy(_.windowEnd)  // 按照窗口分组
-        .process(new TopNHotItems())
+        .process(new TopNHotItems(3))
     //4. sink
-    dataStream.print()
+    processed.print()
 
     env.execute("hot items job")
 
@@ -81,6 +86,41 @@ class TopNHotItems(topSize:Int) extends KeyedProcessFunction[Long,ItemViewCount,
 
   override def processElement(value: ItemViewCount, ctx: KeyedProcessFunction[Long, ItemViewCount, String]#Context, out: Collector[String]): Unit = {
     // 把每条数据存入状态列表
+    itemState.add(value)
+    // 注册一个定时器
+    ctx.timerService().registerEventTimeTimer(value.windowEnd+1)
   }
 
+  // 定时器触发时，对所有数据排序，并输出结果
+  override def onTimer(timestamp: Long, ctx: KeyedProcessFunction[Long, ItemViewCount, String]#OnTimerContext, out: Collector[String]): Unit = {
+    // 将所有state中的数据取出，放到一个List Buffer中
+    val allItems:ListBuffer[ItemViewCount] = new ListBuffer()
+    import scala.collection.JavaConversions._
+    for(item <- itemState.get()){
+      allItems += item
+    }
+
+    // 按照count大小排序，并取前N个
+    val sortedItems = allItems.sortBy(_.count)(Ordering.Long.reverse).take(topSize)
+
+    // 清空状态
+    itemState.clear()
+
+    // 将排名结果格式化输出
+    val result:StringBuilder = new StringBuilder()
+    result.append("时间：").append(new Timestamp(timestamp-1)).append("\n")
+    for(i <- sortedItems.indices){
+      val currentItem = sortedItems(i)
+      result.append("No.").append(i+1).append(":")
+        .append(" 商品ID=").append(currentItem.itemId)
+        .append(" 浏览量=").append(currentItem.count)
+        .append("\n")
+    }
+    result.append("========================================")
+
+    // 控制输出频率
+    Thread.sleep(1000)
+
+    out.collect(result.toString())
+  }
 }
