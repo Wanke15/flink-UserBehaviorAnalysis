@@ -54,7 +54,7 @@ object HotItemsFromKafka {
       .timeWindow(Time.hours(1),Time.minutes(5)) // 窗口大小为 1h，步长为 5min
       .aggregate(new CountAgg(),new WindowResult())   // 窗口聚合
       .keyBy(_.windowEnd)  // 按照窗口分组
-        .process(new TopNHotItems(3))
+      .process(new TopNHotItems(3))
     //4. sink
     processed.print()
 

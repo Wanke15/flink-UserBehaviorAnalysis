@@ -11,6 +11,7 @@
     <modules>
         <module>hotItemsAnalysis</module>
         <module>test</module>
+        <module>NetworkFlowAnalysis</module>
     </modules>
 
     <properties>
