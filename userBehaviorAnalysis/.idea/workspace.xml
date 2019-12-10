@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba9e6e2c-39dc-4f37-9848-c23119d8219a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotItemsAnalysis/src/main/scala/com/flink/hotItems/fromkafka/HotItemsFromKafka.scala" beforeDir="false" afterPath="$PROJECT_DIR$/hotItemsAnalysis/src/main/scala/com/flink/hotItems/fromkafka/HotItemsFromKafka.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/flink/networkFlowAnalysis/NetworkFlow.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="634">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="e#39#64#0" expanded="true" />
               </folding>
@@ -38,9 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://scala-decompiled/Predef.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,10 +87,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="950" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,8 +164,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,11 +275,12 @@
       <workItem from="1574688173920" duration="419000" />
       <workItem from="1575852410047" duration="10586000" />
       <workItem from="1575942890514" duration="6146000" />
+      <workItem from="1575977497137" duration="381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18355000" />
+    <option name="totallyTimeSpent" value="18736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -488,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/flink/networkFlowAnalysis/NetworkFlow.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="634">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="22" />
           <folding>
             <element signature="e#39#64#0" expanded="true" />
           </folding>
