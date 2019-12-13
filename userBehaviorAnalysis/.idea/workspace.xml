@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba9e6e2c-39dc-4f37-9848-c23119d8219a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/NetworkFlowAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/networkFlowAnalysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/resources/apache.log" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/src/main/resources/apache.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/flink/networkFlowAnalysis/NetworkFlow.scala" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/networkFlowAnalysis/NetworkFlow.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/apache.log" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/apache.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/ApacheLogEvent$.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/ApacheLogEvent$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/ApacheLogEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/ApacheLogEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/CountAgg.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/CountAgg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$3$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$3$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$5$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$5$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$$anon$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/NetworkFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/TopNHotUrls.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/TopNHotUrls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/UrlViewCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/UrlViewCount$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/UrlViewCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/UrlViewCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/WindowResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/target/classes/com/flink/networkFlowAnalysis/WindowResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkFlowAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/networkFlowAnalysis/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,39 +20,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/pageView/PageView.scala">
+        <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/UniqueVisistor/UvWithBloom.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#28#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.12/1.8.0/flink-streaming-scala_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="806" column="6" selection-start-line="806" selection-start-column="6" selection-end-line="806" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotItemsAnalysis/src/main/scala/com/flink/hotItems/HotItemsFromCSV.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="52" column="53" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="53" />
-              <folding>
-                <element signature="e#29#54#0" expanded="true" />
+                <element signature="e#35#91#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -90,6 +57,9 @@
         <option value="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/flink/pageView/PageView.scala" />
         <option value="$PROJECT_DIR$/hotItemsAnalysis/src/main/scala/com/flink/hotItems/HotItemsFromCSV.scala" />
         <option value="$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/pageView/PageView.scala" />
+        <option value="$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/UniqueVisistor/UniqueVisitor.scala" />
+        <option value="$PROJECT_DIR$/networkFlowAnalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/UniqueVisistor/UvWithBloom.scala" />
       </list>
     </option>
   </component>
@@ -131,7 +101,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1048" />
@@ -155,49 +125,6 @@
             <path>
               <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="hotItemsAnalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="hotItemsAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="hotItemsAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="hotItemsAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="hotItemsAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="hotItemsAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hotItems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="networkFlowAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,38 +132,6 @@
               <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="networkFlowAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="networkFlowAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="networkFlowAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="networkFlowAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userBehaviorAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userBehaviorAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="networkFlowAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +144,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576218168075" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576239728004" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../地震/earthquakeServer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -276,35 +172,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PageView">
+  <component name="RunManager" selected="Application.UvWithBloom">
     <configuration name="HotItems" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.flink.hotItems.HotItems" />
-      <module name="hotItemsAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flink.hotItems.fromkafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotItemsFromKafka" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.flink.hotItems.fromkafka.HotItemsFromKafka" />
-      <module name="hotItemsAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flink.hotItems.fromkafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KafkaProducer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.flink.hotItems.fromkafka.KafkaProducer" />
       <module name="hotItemsAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -342,13 +212,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueVisitor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.flink.UniqueVisistor.UniqueVisitor" />
+      <module name="networkFlowAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flink.UniqueVisistor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UvWithBloom" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.flink.UniqueVisistor.UvWithBloom" />
+      <module name="networkFlowAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flink.UniqueVisistor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UvWithBloom" />
+        <item itemvalue="Application.UniqueVisitor" />
         <item itemvalue="Application.PageView" />
         <item itemvalue="Application.NetworkFlow" />
         <item itemvalue="Application.HotItems" />
-        <item itemvalue="Application.KafkaProducer" />
-        <item itemvalue="Application.HotItemsFromKafka" />
       </list>
     </recent_temporary>
   </component>
@@ -368,18 +264,17 @@
       <workItem from="1575852410047" duration="10586000" />
       <workItem from="1575942890514" duration="6146000" />
       <workItem from="1575977497137" duration="381000" />
-      <workItem from="1576215875691" duration="2282000" />
+      <workItem from="1576215875691" duration="14192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21018000" />
+    <option name="totallyTimeSpent" value="32928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09651475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.039544236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +283,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29461756" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.060906515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,9 +291,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.26203966" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.04249292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hotItemsAnalysis/src/main/scala/com/flink/hotItems/fromkafka/HotItemsFromKafka.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -564,19 +452,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/networkFlowAnalysis/NetworkFlow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#39#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/resources/UserBehavior.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-3363" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.12/1.8.0/flink-streaming-scala_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="806" column="6" selection-start-line="806" selection-start-column="6" selection-end-line="806" selection-end-column="6" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hotItemsAnalysis/src/main/scala/com/flink/hotItems/HotItemsFromCSV.scala">
@@ -589,19 +474,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.12/1.8.0/flink-streaming-scala_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
+    <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/UniqueVisitor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="806" column="6" selection-start-line="806" selection-start-column="6" selection-end-line="806" selection-end-column="6" />
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.8.0/flink-streaming-java_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/AllWindowFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.12/1.8.0/flink-streaming-scala_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/scala/function/AllWindowFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.12/1.8.0/flink-streaming-scala_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/scala/AllWindowedStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="603" column="33" selection-start-line="603" selection-start-column="16" selection-end-line="603" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/networkFlowAnalysis/NetworkFlow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="19" selection-start-line="9" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/UniqueVisistor/UniqueVisitor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#34#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.8.0/flink-streaming-java_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/windowing/triggers/EventTimeTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/pageView/PageView.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="228">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="e#28#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.8.0/flink-streaming-java_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/windowing/triggers/TriggerResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.8.0/flink-streaming-java_2.12-1.8.0-sources.jar!/org/apache/flink/streaming/api/windowing/triggers/Trigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/BinaryJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1175" column="19" selection-start-line="1175" selection-start-column="19" selection-end-line="1175" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="246" column="18" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networkFlowAnalysis/src/main/scala/com/flink/UniqueVisistor/UvWithBloom.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#35#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
