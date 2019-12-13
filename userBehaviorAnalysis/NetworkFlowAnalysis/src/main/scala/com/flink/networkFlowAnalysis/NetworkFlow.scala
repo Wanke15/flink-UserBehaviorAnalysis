@@ -23,6 +23,9 @@ case class ApacheLogEvent(ip:String,userId:String,eventTime:Long,method:String,u
 case class UrlViewCount(url:String,windowEnd:Long,count:Long)
 
 
+/**
+  *  热门页面流量统计
+  */
 object NetworkFlow {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
